@@ -28,7 +28,7 @@ static ucg_t ucg;
 
 int main(void)
 {
-		SystemCoreClockUpdate();        // cấp clock
+	    SystemCoreClockUpdate();        // cấp clock
 	    TimerInit();                    // để khởi tạo chức năng timer.
 
 	    // Khởi tạo LCD
