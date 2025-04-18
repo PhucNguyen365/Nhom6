@@ -53,5 +53,5 @@ int main(void)
 	    {
 	        processTimerScheduler();
 	    }
-	}
+}
 
