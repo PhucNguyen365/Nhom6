@@ -43,10 +43,10 @@ int main(void)
 	    int screen_width = ucg_GetWidth(&ucg);  // Đảm bảo rằng ucg đã được khởi tạo
 	    int screen_height = ucg_GetHeight(&ucg);
 
-	    int x1 = screen_width - ucg_GetStrWidth(&ucg, "Nhom 6_TTCS");
-	    int y1 = screen_height - 5;
+	    int x1 = screen_width - ucg_GetStrWidth(&ucg, "Nhom 6-TTCS");
+	    int y1 = screen_height;
 
-	    ucg_DrawString(&ucg, x1, y1, 0, "Nhom 6_TTCS");
+	    ucg_DrawString(&ucg, x1, y1, 0, "Nhom 6-TTCS");
 
 	    /* Loop forever */
 	    while(1)
